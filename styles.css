@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.scenery {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+.sky{
+    height: 50%;
+}
+
+.sky-height{
+    height: 20%;
+}
+
+.exosphere{
+    background-color: rgba(158, 209, 250, 0.9);
+}
+.thermosphere{
+    background-color: hsl(207, 90%, 80%, 0.8);
+}
+.mesosphere{
+    background-color: hsl(207, 90%, 80%, 0.65);
+}
+.stratosphere{
+    background-color: hsl(207, 90%, 80%, 0.5);
+}
+.troposphere{
+    background-color: hsl(207, 90%, 80%, 0.35);
+}
+
+.ocean{
+    height: 50%;
+    background-color: hsl(210, 90%, 56%);
+    font-size: 8.5em;
+}
+
+.submarine{
+    text-align: center;
+    color:hsla(212, 50%, 40%, 0.8);
+    text-shadow: 2px 2px hsl(210, 90%, 87.5%,0.3);
+}
+
+.periscope{
+    position: relative;
+    bottom: 0.4em;
+}
+
+.sun{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: gold;
+    position: fixed;
+    top: 5%;
+    right: 20%;
+}
